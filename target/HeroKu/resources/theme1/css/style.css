@@ -1,0 +1,110 @@
+﻿
+header {
+    border-bottom: 1px solid #cfd4de;
+    padding: 10px 0;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+}
+
+header ul{
+    clear:both;
+    list-style:none;
+    margin-top:12px;
+}
+
+header ul li{
+    float:left;
+}
+
+header ul li a {
+    display: block;
+    background: #0497cb;
+    color: #fff;
+    padding: 10px 20PX;
+    border-right: 1px solid #2151b9;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+header ul li a:hover {
+    background: #08338f;
+    color:#fff;
+    text-decoration:none;
+}
+header img+span {
+    color: #5fc12f;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 12px;
+}
+
+.panel {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 0;
+    margin: 10px;
+}
+
+.mt-12 {
+    margin-top:12px;
+}
+
+
+.table-striped > tbody > tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+.table-striped > tbody > tr:nth-child(odd):hover,.table-striped > tbody > tr:hover{
+    background:rgba(185,206,224,0.5);
+}
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: transparent;
+}
+.table thead tr,.table thead tr:hover {
+    background: #0497cb;
+    color: #fff;
+}
+
+/*.dataTables_scroll {
+    margin-bottom:10px;
+}*/
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 4px 0 0;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 11px;
+}
+ .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td{
+    border: 1px solid #c7c5c5;
+}
+.dataTables_wrapper div.row:nth-child(3) {
+    margin: 0;
+    background: #f1f1f1;
+    border: 1px solid #d0d0d0;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #08338f;
+    border-color: #08338f;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    background-color: #5fc12f;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #08338f;
+    border-color: #9aabd0;
+}
+.table-footer {
+    background: #0497cb;
+    border: 1px solid #126582;
+    padding: 10px 0;
+    color: #fff;
+}
+.table-footer div{
+    border-right: 1px solid #126582;
+}
+.table-footer div span{
+    font-size:11px;
+}
